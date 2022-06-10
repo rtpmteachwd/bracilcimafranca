@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML TABLES</title>
+
+<style type="text/css">
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+height: 25px;
+border-spacing:10px 10px;
+}
+table.center-text {
+margin-left: auto;
+margin-right: auto;
+}
+td{
+padding-left: 5px;
+}
+.bgcolor {
+background-color: #96D4D4;
+}
+.center-block{
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+.font-center{
+text-align: center;
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div class="center-block">
+<table class="center-text" style="width:400px;">
+<tr>
+<th colspan="2" class="bgcolor">NAME</th>
+<th>AGE</th>
+</tr>
+<tr>
+<td>Value1</td>
+<td>Value2</td>
+<td>Value3</td>
+</tr>
+<tr>
+<td>Value4</td>
+<td>Value5</td>
+<td>Value6</td>
+</tr>
+<tr>
+<td>Value7</td>
+<td>Value8</td>
+<td>Value9</td>
+</tr>
+<tr>
+<td>Value10</td>
+<td>Value11</td>
+<td>Value12</td>
+</tr>
+</table>
+</div>
+<br>
+
+<div class="center-block">
+<table class="center-text" style="width:400px;">
+<tr>
+<th rowspan="3" class="bgcolor">APRIL</th>
+<th>MAY</th>
+<th>JUNE</th>
+</tr>
+<tr>
+<td>Value1</td>
+<td>Value2</td>
+</tr>
+<tr>
+<td>Value3</td>
+<td>Value4</td>
+</tr>
+<tr>
+<td>Value5</td>
+<td>Value6</td>
+<td>Value7</td>
+</tr>
+<tr>
+<td>Value8</td>
+<td>Value9</td>
+<td>Value10</td>
+</tr>
+</table>
+</div>
+
+<br>
+
+<div class="center-block">
+<table class="center-text" style="width:400px;">
+<tr>
+<th colspan="3" class="bgcolor">2022</th>
+</tr>
+<tr>
+<td>Value1</td>
+<td>Value2</td>
+<td>Value3</td>
+</tr>
+<tr>
+<td class="font-center bgcolor" colspan="2" rowspan="2">2021</td>
+<td>Value4</td>
+</tr>
+<tr>
+<td>Value5</td>
+</tr>
+<tr>
+<td>Value6</td>
+<td>Value7</td>
+<td>Value8</td>
+</tr>
+</table>
+</div>
+</body>
+</html>
